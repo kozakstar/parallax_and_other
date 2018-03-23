@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parallax{
+    background: url("img/background.jpg") no-repeat center center;
+    overflow: hidden;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 630px;
+    position: relative;
+}
+.parallax-layer{
+    position: absolute;
+}
+.bg1{
+     background: url("img/drops_bg_back.png") no-repeat;
+     width: 1600px;
+     height: 700px;
+
+}
+.bg2{
+    background: url("img/drops_bg_up.png") no-repeat;
+    width: 1620px;
+    height: 630px;
+
+}
